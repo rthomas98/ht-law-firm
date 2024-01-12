@@ -13,9 +13,7 @@ jobs:
         with:
           # Deploy vars
           WPE_SSHG_KEY_PRIVATE: ${{ secrets.HT_LAW_SSHG_KEY_PRIVATE }}
-        staging
           WPE_ENV: htlawprod
-        main
           # Deploy Options
           REMOTE_PATH: "wp-content/"
           PHP_LINT: TRUE
