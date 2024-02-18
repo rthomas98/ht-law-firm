@@ -21,7 +21,8 @@ module.exports = {
 
 			},
 			fontFamily: {
-				'ht': ['"Helvetica Neue"', 'Helvetica', 'Arial', 'sans-serif'],
+				'helvetica': ['"Helvetica Neue"', 'Helvetica', 'Arial', 'sans-serif'],
+				'body': ['"Helvetica Neue"', 'Helvetica', 'Arial', 'sans-serif'],
 			},
 		},
 	},
